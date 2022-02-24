@@ -1,7 +1,6 @@
 
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://github.com/christopherfulldev/lesson_01-MocksOLOO)
+First lesson of Erick Wendel course "JSexpert"
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
