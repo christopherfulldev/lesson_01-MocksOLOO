@@ -1,7 +1,6 @@
 
 ## About The Project
 First lesson of Erick Wendel course "JSexpert"
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
@@ -17,10 +16,12 @@ First lesson of Erick Wendel course "JSexpert"
 ## Getting Started
 Run "node index.test.js" in root directory. 
 
+
 ### Prerequisites
 This project no have depencies.
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 Use this for base to learn about "tests".
 
@@ -56,7 +57,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Christopher Pinto - [@linkedin](www.linkedin.com/in/christopher-pinto-fullstackdev) 
+Christopher Pinto - [linkedin](www.linkedin.com/in/christopher-pinto-fullstackdev) 
 
 Project Link: [https://github.com/christopherfulldev/lesson_01MocksOLOO](https://github.com/christopherfulldev/lesson_01MocksOLOO)
 
