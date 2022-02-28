@@ -1,65 +1,18 @@
 
-## About The Project
-First lesson of Erick Wendel course "JSexpert"
-<p align="right">(<a href="#top">back to top</a>)</p>
+## First lesson off "Erick Wendel" course "Js Expert".
 
-### Built With
+1 - The feature are based in JavaScript/NodeJS, and not has dependencies.
 
-* [JavaScript](https://www.javascript.com/)
-* [NodeJS](https://nodejs.org/en/)
+2- Clone this repository and run "node index.test.js". 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+3- The absence of alerts means that the tests passed. Test including a change in any "Mocks" files to obtains an error message.
 
+4- The "deepStrictlyEqual" "method" is provided for "assert" in node modules. It is used to compare what is received with what is expected([Object]X[Object]).
 
+5 -The ".csv" files in this case are the basis for comparisons. There we specify all possible cases and later define those that will be treated as rejections by the aforementioned method.
 
-<!-- GETTING STARTED -->
-## Getting Started
-Run "node index.test.js" in root directory. 
+6- "IIFE" are auto-invoked functions that can also work asynchronously.
 
+7 - It is possible to create contexts using key pairs with statements inside. Because of this we can create variables with identical names, each in its own scope.
 
-### Prerequisites
-This project no have depencies.
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-Use this for base to learn about "tests".
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Christopher Pinto - [linkedin](www.linkedin.com/in/christopher-pinto-fullstackdev) 
-
-Project Link: [https://github.com/christopherfulldev/lesson_01MocksOLOO](https://github.com/christopherfulldev/lesson_01MocksOLOO)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+8- This feature was created using "OLOO by Kily Simpson" programming design.
