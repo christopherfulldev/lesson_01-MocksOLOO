@@ -1,10 +1,10 @@
 'use strict'
 const userSchema = {
     initializer: function ({id, name, profession, age, DEFAULTERRORMESSAGE}) {
-        this.name = name || DEFAULTERRORMESSAGE, 
-        this.id = parseInt(id) || DEFAULTERRORMESSAGE,
-        this.profession = profession || DEFAULTERRORMESSAGE,
-        this.birthDay = new Date().getFullYear() - age -2 || DEFAULTERRORMESSAGE;
+        this.name = name || DEFAULTERRORMESSAGE(), 
+        this.id = parseInt(id) || DEFAULTERRORMESSAGE(),
+        this.profession = profession || DEFAULTERRORMESSAGE(),
+        this.birthDay = new Date().getFullYear() - age -2 || DEFAULTERRORMESSAGE();
         return this;
     },
 
