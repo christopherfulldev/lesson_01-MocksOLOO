@@ -1,11 +1,15 @@
 'use strict'
 const userSchema = {
     initializer: function ({id, name, profession, age}) {
-        this.name = name,
-        this.id = parseInt(id),
-        this.profession = profession,
-        this.birthDay =  new Date().getFullYear() - age -2;
+        this.name = name || DEFAULTERRORMESSAGE, 
+        this.id = parseInt(id) || DEFAULTERRORMESSAGE,
+        this.profession = profession || DEFAULTERRORMESSAGE,
+        this.birthDay = new Date().getFullYear() - age -2 || DEFAULTERRORMESSAGE;
         return this;
+    },
+
+    DEFAULTERRORMESSAGE: function () {
+        return 'Error trying to get value, try again'
     }
 };                    
 

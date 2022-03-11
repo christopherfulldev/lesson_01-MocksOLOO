@@ -10,7 +10,7 @@ let fileHandler = {
     csvToJson: async function (filePath) {
         const returnedContent = await fileHandler.getFileContent(filePath);
         const fileValidation = fileHandler.isValidFile(returnedContent);
-        if(!fileValidation.valid) throw new Error(fileValidation.error);
+        if(!fileValidation.valid) throw Object.create(Error(fileValidation.error));
         const users = await fileHandler.parseCSVToJSON(returnedContent);
         return users;
     },
